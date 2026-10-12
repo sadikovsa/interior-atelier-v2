@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-11",
+  "variant": "interior-atelier-v2",
+  "display_name": "Тайный сад / Secret Garden",
+  "principle": "Дневник обжитого дома",
+  "scope": "actual implementation; technical DEMO accepted; not owner final runtime approval",
+  "runtime_inventory": {
+    "paths": 175,
+    "sha256": "7a619e74dbb829cb788c252ca954495ff9fcc97126aa7fac7cf89b230bf26a72",
+    "these_documents_excluded": true
+  },
+  "tokens": {
+    "hero_global": {
+      "--color-bg": "#132B2E",
+      "--color-text": "#E7DFC9",
+      "--color-muted": "#B4C8BF",
+      "--color-accent": "#C4AB83",
+      "--color-surface": "#203A3A",
+      "--color-on-accent": "#132B2E",
+      "--color-error": "#FFB4AC",
+      "--color-focus": "#C4AB83",
+      "--color-hero-text": "#FFFFFF",
+      "--color-hero-scrim": "rgba(10,18,23,0.84)",
+      "--font-heading": "Arial, system-ui, sans-serif",
+      "--font-body": "Arial, system-ui, sans-serif",
+      "--font-size-caption": "0.8125rem",
+      "--font-size-body": "1rem",
+      "--font-size-lead": "1.25rem",
+      "--font-size-h2": "clamp(2rem, 4vw, 3.75rem)",
+      "--font-size-hero": "clamp(2.25rem, 4.4vw, 4.5rem)",
+      "--font-size-object": "clamp(5rem, 22vw, 22rem)",
+      "--line-body": "1.6",
+      "--line-heading": "1.08",
+      "--space-1": "0.25rem",
+      "--space-2": "0.5rem",
+      "--space-3": "1rem",
+      "--space-4": "1.5rem",
+      "--space-5": "2rem",
+      "--space-6": "3rem",
+      "--space-7": "5rem",
+      "--space-section": "clamp(4rem, 8vw, 8rem)",
+      "--page-gutter": "clamp(1.25rem, 4vw, 4rem)",
+      "--content-width": "80rem",
+      "--radius-control": "0px",
+      "--radius-panel": "2px",
+      "--shadow-panel": "0 16px 48px rgba(0,0,0,0.18)",
+      "--duration-control": "180ms",
+      "--duration-panel": "280ms",
+      "--ease-control": "cubic-bezier(0.2, 0, 0, 1)",
+      "--ease-panel": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "--tap-size": "44px"
+    },
+    "lower_theme": {
+      "background": "#213c31",
+      "text": "#ede6d8",
+      "muted": "#afbca4",
+      "accent": "#afbca4"
+    },
+    "lower_light": {
+      "background": "#ede6d8",
+      "text": "#213c31",
+      "muted": "#43584b",
+      "accent": "#43584b"
+    }
+  },
+  "typography": {
+    "hero_heading": "Arial, system-ui, sans-serif",
+    "hero_body": "Arial, system-ui, sans-serif",
+    "lower_heading": "Literata",
+    "lower_body": "Commissioner",
+    "faces": {
+      "Literata": {
+        "weight_range": "400 600",
+        "font_display": "swap",
+        "subsets": [
+          "cyrillic-ext",
+          "cyrillic",
+          "latin"
+        ],
+        "css": "assets/fonts/literata.css"
+      },
+      "Commissioner": {
+        "weight_range": "400 600",
+        "font_display": "swap",
+        "subsets": [
+          "cyrillic-ext",
+          "cyrillic",
+          "latin"
+        ],
+        "css": "assets/fonts/commissioner.css"
+      }
+    },
+    "h2": {
+      "weight": 400,
+      "line_height": 1.08,
+      "tracking_em": -0.025,
+      "max_width": "26ch"
+    },
+    "h3": "600 20px/1.3 lower body font",
+    "paragraph_max_width": "65ch"
+  },
+  "chapters": [
+    "Один дом. Разный ритм",
+    "Порядок без витрины",
+    "Под листвой",
+    "Комната продолжается на террасе",
+    "Фактуры, с которыми живут",
+    "Место за общим столом",
+    "Решаем вместе",
+    "Вопросы о жизни дома",
+    "Опишите привычный день"
+  ],
+  "layout": {
+    "mobile": {
+      "gutter_px": 20,
+      "gap_px": 20,
+      "padding_px": 32,
+      "body_px": 17,
+      "caption_px": 14,
+      "h2_px": 34
+    },
+    "tablet_ge768": {
+      "gutter_px": 32,
+      "gap_px": 24,
+      "padding_px": 40,
+      "body_px": 18,
+      "caption_px": 15,
+      "h2_px": 44
+    },
+    "desktop_ge1200": {
+      "gutter": "max(64px,calc((100vw - 1312px)/2))",
+      "gap_px": 32,
+      "padding_px": 56,
+      "body_px": 20,
+      "h2_px": 64,
+      "grids": {
+        "g-day": "32fr 68fr",
+        "g-storage": "32fr 68fr",
+        "g-forest": "58fr 42fr",
+        "g-terrace": "74fr 26fr",
+        "g-textures": "37fr 28fr 35fr",
+        "g-dining": "64fr 36fr",
+        "g-together": "38fr 30fr 32fr"
+      }
+    },
+    "chapter_scroll_margin": "7rem"
+  },
+  "motion": {
+    "engine": "local GSAP/ScrollTrigger3.13.0",
+    "native_scroll": true,
+    "axis": {
+      "x": 0.7057416267942583,
+      "y": 0.41445270988310307
+    },
+    "world_scale": "1+(18-1)*clamp(p/.94)^2",
+    "near1": {
+      "start": 0.34,
+      "multiplier": "1+2*clamp((p-start)/(1-start))"
+    },
+    "near2": {
+      "start": 0.68,
+      "multiplier": "1+1.4*clamp((p-start)/(1-start))"
+    },
+    "camera_travel_end": 0.64,
+    "destination_scale": "1+.12*clamp(p/.94)",
+    "hero_opacity": "1-clamp((p-.05)/.16)",
+    "hero_inert_after": 0.22,
+    "range_viewports": {
+      "desktop": 2.2,
+      "mobile_le600": 1.4
+    },
+    "scrolltrigger": {
+      "start": "top top",
+      "pin": ".scene-stage",
+      "scrub": true,
+      "invalidateOnRefresh": true,
+      "anticipatePin": 1
+    },
+    "reduced": "matchMedia cleanup; clear transform/opacity, inert=false, no pin",
+    "nojs": "static scene/destination fallback and full content"
+  },
+  "components": {
+    "menu": "280ms height/opacity; mobile below768; Escape and focus restore",
+    "filters": {
+      "values": [
+        "all",
+        "garden",
+        "forest"
+      ],
+      "cases": 2,
+      "anchor_recovery": true,
+      "scrolltrigger_refresh": true
+    },
+    "gallery": {
+      "links": 17,
+      "requested_separate_from_active": true,
+      "native_decode": true,
+      "generation_guard": true,
+      "error": "preserve last good image/alt/caption/count; reset requested to active",
+      "close_reopen_guard": true,
+      "keys": [
+        "ArrowLeft",
+        "ArrowRight",
+        "Tab trap",
+        "Escape"
+      ],
+      "swipe_px": 48,
+      "dialog": "width min(1200px,100vw - 32px), max94dvh, image contain max70dvh; ≤600 width100vw - 20px/image54dvh"
+    },
+    "faq": {
+      "count": 4,
+      "duration_ms": 280,
+      "ease": "cubic-bezier(.22,1,.36,1)",
+      "animation": "WAAPI current height/opacity with cancellation and reversal",
+      "reduced": "instant",
+      "nojs": "open native details"
+    },
+    "form": {
+      "button_type": "button",
+      "name_message": "trim nonempty",
+      "contact": "email with @ and dot-domain or phone7–15digits with allowed + whitespace ().-",
+      "post": false,
+      "storage": false,
+      "focus": "first invalid field or success status",
+      "nojs": "disabled check button and explanatory text"
+    }
+  },
+  "qa_round1_correction": "BUG-QA-02: H1::before rgba(10,18,23,.6), inset−.15em −.3em/shadow0 0 .65em .25em; H1position:relative/isolation:isolate. Header scrimrgba(10,18,23,.7)/shadow0 0 .6rem .25rem: brand и navigation. Padding/геометрия/таймлайн не изменены; pixels изменены намеренно.",
+  "seo": {
+    "robots": "noindex,follow",
+    "canonical": "https://interior-studio-v2.dilsan881.chatgpt.site/interior-atelier-v2/",
+    "schema": "WebPage only; no invented Organization/LocalBusiness/reviews",
+    "icons_manifest": "local; no service worker",
+    "pages": "prepared docs artifact; actual enablement blocked integration API403"
+  },
+  "demo": {
+    "case_count": 2,
+    "ai_labels": true,
+    "legal": "[НУЖЕН ТЕКСТ ЮРИСТА]",
+    "replacement_inventory": "interior-demo/.studio/v2/seo-qa-release/06-delivery.md#4"
+  },
+  "verification": {
+    "qa": "QA_PASS_WITH_NOTES",
+    "review": "REVIEW_SHIP",
+    "pm": "ACCEPTED",
+    "fresh_scroll": "source3×390/1440 forward9chapters/backY0",
+    "lighthouse": {
+      "mobile_performance": 69,
+      "mobile_lcp_ms": 5945.78,
+      "desktop_performance": 94,
+      "desktop_lcp_ms": 1639.22,
+      "cls": 0,
+      "accessibility": 100,
+      "best_practices": 100,
+      "seo": 66,
+      "seo_cause": "intentional noindex",
+      "environment": "LH13.5.0/Chromium151/Node24.19.0 localhost no-store; simulated4G mobile412×823CPU4, desktop1440×900CPU1",
+      "known_limit": "mobileLCP>4s P2 advisory; not good mobileCWV"
+    },
+    "not_checked": [
+      "Firefox/WebKit/Safari",
+      "physical phones",
+      "screen readers/assistive tech",
+      "OS IME/soft keyboard",
+      "toolbar200%zoom",
+      "all motion/hover/gradient contrast states",
+      "full WCAG",
+      "subjective smoothness/FPS",
+      "field CWV/INP",
+      "new public Pages deployment"
+    ],
+    "evidence": {
+      "fixes": "interior-demo/.studio/v2/seo-qa-release/03-fix-notes.md",
+      "seo": "interior-demo/.studio/v2/seo-qa-release/04-seo-report.md",
+      "qa": "interior-demo/.studio/v2/seo-qa-release/05a-qa-recheck.md",
+      "review": "interior-demo/.studio/v2/seo-qa-release/05b-design-review.md",
+      "delivery": "interior-demo/.studio/v2/seo-qa-release/06-delivery.md",
+      "inventory": "interior-demo/.studio/v2/seo-qa-release/qa-recheck-evidence-index.json"
+    }
+  }
+}

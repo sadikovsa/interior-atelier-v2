@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "package": "interior-atelier-v2",
+  "planned_pages_url": "https://sadikovsa.github.io/interior-atelier-v2/",
+  "deployment_verified_by_build": false,
+  "public_files": 55,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 41829,
+      "sha256": "54798ce6d482ddaa4f8fe8f47ec29f6fac9f54355c6b90f2b1c789040349d707"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 145,
+      "sha256": "3f6420c0e4a40d2e5c00ae798cb5d9b38210c904ed946a015e6600316b8974e3"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 166,
+      "sha256": "8d22e5c289583cb613a481e23b49fd9b06801ab3a38976575c61e3d167ceffc3"
+    },
+    {
+      "path": "site.webmanifest",
+      "bytes": 534,
+      "sha256": "d41926e25ab5de64f40ceb04f2da39eaf073c8a7eee8d76727bdd8e50986601a"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/css/base.css",
+      "bytes": 2088,
+      "sha256": "eb49dafb7b95ea111597aa524d95039d3107bde4775e7d5d1b01dff6009a463c"
+    },
+    {
+      "path": "assets/css/components.css",
+      "bytes": 3379,
+      "sha256": "d338815623079a1d428e2dcef2170dc574c32ca1cbda5ade1a4c7dc1a569f076"
+    },
+    {
+      "path": "assets/css/content-fonts.css",
+      "bytes": 80,
+      "sha256": "bf172a3a8154f2954f2c2a13d46071608322a35e64709bf5906172f0aab194f4"
+    },
+    {
+      "path": "assets/css/content-interface.css",
+      "bytes": 5726,
+      "sha256": "ade8eef33cc73fec6b0cde13c82c188169b7a19c2663867f21a3182255247b77"
+    },
+    {
+      "path": "assets/css/content-layout.css",
+      "bytes": 19284,
+      "sha256": "2897b0e7d3aeb1529dba3f48bb75cde91db9068f10f643251b107c56044a47fa"
+    },
+    {
+      "path": "assets/css/layout.css",
+      "bytes": 4627,
+      "sha256": "fd8719c4627b496c8bb7def8c3245ddfc2c24a1d55aa6335e2a353ce9db2e6d0"
+    },
+    {
+      "path": "assets/css/motion.css",
+      "bytes": 4613,
+      "sha256": "c37df547374fdb4a3c0d918b224208b3a303ebf49a66c13ce241a662045cdab0"
+    },
+    {
+      "path": "assets/css/tokens.css",
+      "bytes": 1257,
+      "sha256": "2787fec5f7b8b8d681e8a449982813ba285820c5b5cf3bbac1ed662231d21abe"
+    },
+    {
+      "path": "assets/fonts/commissioner-OFL.txt",
+      "bytes": 4395,
+      "sha256": "4a7d88c77b4bc39ff84f2e058ba8f015636c50ce33588a86d9da97defe519933"
+    },
+    {
+      "path": "assets/fonts/commissioner-cyrillic-ext.woff2",
+      "bytes": 28068,
+      "sha256": "dc67c8d7ffa7feb421d5895b89a0f0f0e5bf3e86b79d59aa60dc9070efbf65c4"
+    },
+    {
+      "path": "assets/fonts/commissioner-cyrillic.woff2",
+      "bytes": 26188,
+      "sha256": "1cb81390574ac797658ecabb9d6c50648b01506909c9b0c0c315fbe89f83a689"
+    },
+    {
+      "path": "assets/fonts/commissioner-latin.woff2",
+      "bytes": 36700,
+      "sha256": "e3d539b926881fbb3592788297eee24d6d179c1c06dbad36805fc722775247ce"
+    },
+    {
+      "path": "assets/fonts/commissioner.css",
+      "bytes": 865,
+      "sha256": "da3541c73b36232f2305942093ee92bf7bca0125aa52b6fb4ecc0f9b5f1ea0f9"
+    },
+    {
+      "path": "assets/fonts/literata-OFL.txt",
+      "bytes": 4389,
+      "sha256": "8742963604cd89dc81437811a850018fc03b2bfad686d7422c8235967c87614e"
+    },
+    {
+      "path": "assets/fonts/literata-cyrillic-ext.woff2",
+      "bytes": 7396,
+      "sha256": "c2abb025bf949ecbd34d59ce32c4e04e4e6ea93ec6f45ed0b6f9c7f4dcf5a200"
+    },
+    {
+      "path": "assets/fonts/literata-cyrillic.woff2",
+      "bytes": 21008,
+      "sha256": "fc542002093cdaa2ed38f3768cbc8a04f639049a91cb73b6d831243517c07369"
+    },
+    {
+      "path": "assets/fonts/literata-latin.woff2",
+      "bytes": 38996,
+      "sha256": "fde3d14f78c3431ee5e2f676a46dd18a1dd48ee4d0a71cc76c751f9e6f76f58e"
+    },
+    {
+      "path": "assets/fonts/literata.css",
+      "bytes": 841,
+      "sha256": "e4902de1ca6cb287ca6ff39e5697ef135b4c8a0f37e75f400f91f4469b8a9c4d"
+    },
+    {
+      "path": "assets/fonts/manifest.json",
+      "bytes": 1995,
+      "sha256": "b862c79f67176defe69bc302bba1d860ca83b7db482895306c5b3058deb4fa5e"
+    },
+    {
+      "path": "assets/icons/apple-touch-icon.png",
+      "bytes": 1061,
+      "sha256": "aad6d8fe1d09b9d4d82f575639bf666a9def3fe0026479039860d6beb02595b1"
+    },
+    {
+      "path": "assets/icons/favicon-16.png",
+      "bytes": 299,
+      "sha256": "77f92bd1c27e63486f8310d91f278859f9b7e1caab6293b0c9a86d82e6bc5652"
+    },
+    {
+      "path": "assets/icons/favicon-32.png",
+      "bytes": 421,
+      "sha256": "1f53fa4aaada3ad75e0df0fc45f3744fba05c9fe3604ebd0a901f2744e103890"
+    },
+    {
+      "path": "assets/icons/favicon.ico",
+      "bytes": 1227,
+      "sha256": "0d23723819304abc7d25e4eab1d3feb3f4293a55980bd1fe3a0ac18a9c4e4ccc"
+    },
+    {
+      "path": "assets/icons/favicon.svg",
+      "bytes": 174,
+      "sha256": "fd9d736ebab29ea6f622619cb2f7e853767e765cc74d22bb4f95f081a13f57cd"
+    },
+    {
+      "path": "assets/icons/icon-192.png",
+      "bytes": 1052,
+      "sha256": "d23854306773da6be35a139a3a3f9d0eb1e6582dbd867ca7f30508ac11715415"
+    },
+    {
+      "path": "assets/icons/icon-512.png",
+      "bytes": 1921,
+      "sha256": "257df11ba44941fe65ae5b04fa298c52bcc808caeb9643f2b79559575fb507cb"
+    },
+    {
+      "path": "assets/img/content-r3/dining-1448.webp",
+      "bytes": 393466,
+      "sha256": "d165e019096cf856772975f023eabf3ea8b9508e9d5dbbf4c16919c83650c898"
+    },
+    {
+      "path": "assets/img/content-r3/dining-640.webp",
+      "bytes": 85332,
+      "sha256": "60d8e78af0a1ef8270af9f7b674ccb268b572e0052ec05595efd9b1f99ec0a93"
+    },
+    {
+      "path": "assets/img/content-r3/dining-960.webp",
+      "bytes": 196132,
+      "sha256": "361be286955eb5205f52f41ab90dee475fdf99bce2b513f96ae9cc7b032afeb2"
+    },
+    {
+      "path": "assets/img/content-r3/dining-map.svg",
+      "bytes": 1300,
+      "sha256": "28414c29d74acf01d561450ba0241cc8dec3ede4e78659a2b1aef3cc69279eda"
+    },
+    {
+      "path": "assets/img/content-r3/storage-1448.webp",
+      "bytes": 353146,
+      "sha256": "9bbcb23e896e1d52ff6349cf0a0ea64f5154c3e8b948274701c5540beb5a31ff"
+    },
+    {
+      "path": "assets/img/content-r3/storage-640.webp",
+      "bytes": 71826,
+      "sha256": "73216e8a4b6e7b0f3fa4b1d76f2f94eb516bf7a57c22ad738b338d3cb6e95bf8"
+    },
+    {
+      "path": "assets/img/content-r3/storage-960.webp",
+      "bytes": 172702,
+      "sha256": "e0c97a20a82776bda6fe6fe69f7ab850345e3a850642a68f0bca990b6996f27e"
+    },
+    {
+      "path": "assets/img/content-r3/storage-map.svg",
+      "bytes": 1504,
+      "sha256": "c012e965e0aa8195da299ecaaa73dc635cf58fad9ea5b12e8baa28a5cfb58980"
+    },
+    {
+      "path": "assets/img/content-r3/terrace-1536.webp",
+      "bytes": 427342,
+      "sha256": "3859b162535404b3ba1188822d0cc9723a85aae729f043a906a8fd8026a88a60"
+    },
+    {
+      "path": "assets/img/content-r3/terrace-640.webp",
+      "bytes": 80728,
+      "sha256": "529b932b33f0c9d4958e8c303137ab8fcd6af5f33180b3d4baaa6806cc4cdaae"
+    },
+    {
+      "path": "assets/img/content-r3/terrace-960.webp",
+      "bytes": 183958,
+      "sha256": "a4b766f8bb2db76bb6873201ea385acf0933bf069b260a999768571d95185d79"
+    },
+    {
+      "path": "assets/img/content-r3/working-sheet.svg",
+      "bytes": 1510,
+      "sha256": "47837db4c672b866dee5810f799d975ad83f783ee00700cc268898b4b0d93140"
+    },
+    {
+      "path": "assets/img/hero-1672.webp",
+      "bytes": 493508,
+      "sha256": "edddcccd31969b398fab0bfcd3eff929a40247e6d666b6e4d904a7f4f91789c7"
+    },
+    {
+      "path": "assets/img/hero-960.webp",
+      "bytes": 202632,
+      "sha256": "811900c947b0cf35426ed632230954c0681a74273c4335adfc616342d3e0f283"
+    },
+    {
+      "path": "assets/img/interior-1672.webp",
+      "bytes": 464872,
+      "sha256": "23afda805a01fcb1f90ee26a464080eef6c8ece14e1908be09d779ffe334c166"
+    },
+    {
+      "path": "assets/img/interior-960.webp",
+      "bytes": 186196,
+      "sha256": "fa0292212012fab60efe838416e68229f2004a9f433dcd2760a0d1656c269c97"
+    },
+    {
+      "path": "assets/img/mineral-bedroom-1448.webp",
+      "bytes": 227176,
+      "sha256": "cbcb1556ed78238a2390eae627d1c139c88ba201766efdd4d5cffb4aa2b44df4"
+    },
+    {
+      "path": "assets/img/timber-house-1448.webp",
+      "bytes": 312718,
+      "sha256": "3eb998246cfcbb17defed335507368fd0abf1c278efbf089f9202ccd9d02193e"
+    },
+    {
+      "path": "assets/js/content.js",
+      "bytes": 5861,
+      "sha256": "274fc563465a1abdb2272a8bbe0ebea0207a2af9f4b20019dff68ddbc5272abe"
+    },
+    {
+      "path": "assets/js/main.js",
+      "bytes": 5491,
+      "sha256": "4c7c041519992885808a310a340ae88c4eef7ee1f89a855759a368b9e54405bb"
+    },
+    {
+      "path": "assets/js/vendor/ScrollTrigger.min.js",
+      "bytes": 44157,
+      "sha256": "308219390e5e3b84cda0c481e70caa9820883ae10bda44e6e9a149a81aac4b3f"
+    },
+    {
+      "path": "assets/js/vendor/gsap-package.json",
+      "bytes": 1676,
+      "sha256": "cba3c19e7852db942fcbd895c8a05e791490e72a20e28c228b86ed4d268615c4"
+    },
+    {
+      "path": "assets/js/vendor/gsap.min.js",
+      "bytes": 72435,
+      "sha256": "96c01b81f44a3290e2b4532f55e2c9534b2adc43273a19f3756b2cb41f0fd0b6"
+    },
+    {
+      "path": "assets/masks/environment.svg",
+      "bytes": 1521,
+      "sha256": "9b4503532b88963925230dcf12321866a5c0136d953f2645070fe103f9361c3a"
+    }
+  ]
+}

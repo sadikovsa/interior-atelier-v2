@@ -1,0 +1,15 @@
+{
+  "package": "interior-atelier-v2",
+  "copied_source_files": 58,
+  "public_files": 55,
+  "public_bytes": 4247913,
+  "changed_from_original": [
+    "index.html:head_metadata_base_only"
+  ],
+  "original_body_sha256": "cec81b42bf7df2d9ba29b7138bd9d4189202c53245b03b8852a08c079dbdd49e",
+  "body_and_all_copied_assets_identical": true,
+  "static_local_references_checked": 105,
+  "second_build_inventory_identical": true,
+  "planned_pages_base": "https://sadikovsa.github.io/interior-atelier-v2/",
+  "deployment_verified": false
+}

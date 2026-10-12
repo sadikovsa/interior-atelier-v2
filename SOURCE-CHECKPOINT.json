@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "package": "interior-atelier-v2",
+  "source_repository": "sadikovsa/codex_studio",
+  "source_root_directory": "interior-atelier-v2",
+  "source_release_commit": "9e343c887206b70f0b868fbf420c1a4e005db77b",
+  "integration_main_checkpoint": "e074ddf",
+  "source_final_175_runtime_sha256": "7a619e74dbb829cb788c252ca954495ff9fcc97126aa7fac7cf89b230bf26a72",
+  "root_checkpoint_retained": true,
+  "planned_repository": "sadikovsa/interior-atelier-v2",
+  "planned_pages_url": "https://sadikovsa.github.io/interior-atelier-v2/",
+  "publication_status": "prepared_not_verified",
+  "html_body_original_sha256": "cec81b42bf7df2d9ba29b7138bd9d4189202c53245b03b8852a08c079dbdd49e",
+  "metadata_change": "private origin plus variant path replaced with this standalone Pages base; UI unchanged",
+  "source_inventory": "SOURCE-INVENTORY.json",
+  "public_build_inventory": "BUILD-INVENTORY.json"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "DEMO / AI generated",
+  "generator": "image_gen.imagegen",
+  "sourceConcept": "../../../interior-demo/.studio/v2/comps/r2-secret-garden.png",
+  "heroSource": "exec-5a7ebcff-052b-4966-893b-b2c78e479439.png",
+  "interiorSource": "exec-f79f8bdc-6195-48ff-99f2-b92f4ce576a8.png",
+  "edits": "Scene plate: remove all text/UI preserving architecture. Destination: inside same residence matching light/materials.",
+  "additionalProjects": "Existing studio AI mineral-bedroom and timber-house; original repository path: interior-cinema/assets/img/manifest.json",
+  "conversion": "WebP quality88; widths960/1672, no composition editing"
+}
