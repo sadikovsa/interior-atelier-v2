@@ -1,0 +1,44 @@
+[
+  {
+    "family": "Literata",
+    "subset": "cyrillic-ext",
+    "file": "literata-cyrillic-ext.woff2",
+    "source": "https://fonts.gstatic.com/s/literata/v40/or3aQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbBG_df3-vbgKBM6YoggA-vpD-7cVMA.woff2",
+    "sha256": "c2abb025bf949ecbd34d59ce32c4e04e4e6ea93ec6f45ed0b6f9c7f4dcf5a200"
+  },
+  {
+    "family": "Literata",
+    "subset": "cyrillic",
+    "file": "literata-cyrillic.woff2",
+    "source": "https://fonts.gstatic.com/s/literata/v40/or3aQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbBG_df3-vbgKBM6YoggA-vpK-7cVMA.woff2",
+    "sha256": "fc542002093cdaa2ed38f3768cbc8a04f639049a91cb73b6d831243517c07369"
+  },
+  {
+    "family": "Literata",
+    "subset": "latin",
+    "file": "literata-latin.woff2",
+    "source": "https://fonts.gstatic.com/s/literata/v40/or3aQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbBG_df3-vbgKBM6YoggA-vpO-7c.woff2",
+    "sha256": "fde3d14f78c3431ee5e2f676a46dd18a1dd48ee4d0a71cc76c751f9e6f76f58e"
+  },
+  {
+    "family": "Commissioner",
+    "subset": "cyrillic-ext",
+    "file": "commissioner-cyrillic-ext.woff2",
+    "source": "https://fonts.gstatic.com/s/commissioner/v24/tDbw2o2WnlgI0FNDgduEk4jAhwgumbU1SVfU5BD8OuRL8OstC6KOhgvBYWSFJ-Mgdrgiju6fF8m0Z0Xaexs.woff2",
+    "sha256": "dc67c8d7ffa7feb421d5895b89a0f0f0e5bf3e86b79d59aa60dc9070efbf65c4"
+  },
+  {
+    "family": "Commissioner",
+    "subset": "cyrillic",
+    "file": "commissioner-cyrillic.woff2",
+    "source": "https://fonts.gstatic.com/s/commissioner/v24/tDbw2o2WnlgI0FNDgduEk4jAhwgumbU1SVfU5BD8OuRL8OstC6KOhgvBYWSFJ-Mgdrgiju6fF8m0bkXaexs.woff2",
+    "sha256": "1cb81390574ac797658ecabb9d6c50648b01506909c9b0c0c315fbe89f83a689"
+  },
+  {
+    "family": "Commissioner",
+    "subset": "latin",
+    "file": "commissioner-latin.woff2",
+    "source": "https://fonts.gstatic.com/s/commissioner/v24/tDbw2o2WnlgI0FNDgduEk4jAhwgumbU1SVfU5BD8OuRL8OstC6KOhgvBYWSFJ-Mgdrgiju6fF8m0akXa.woff2",
+    "sha256": "e3d539b926881fbb3592788297eee24d6d179c1c06dbad36805fc722775247ce"
+  }
+]
