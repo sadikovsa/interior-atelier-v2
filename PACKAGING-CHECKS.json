@@ -1,15 +1,30 @@
 {
-  "package": "interior-atelier-v2",
-  "copied_source_files": 58,
+  "scope": "public copy cleanup plus editable local brief",
+  "baseline_source_checkpoint": "1f0b4bbb65b890468c6b750ad28d517eec811960",
   "public_files": 55,
-  "public_bytes": 4247913,
-  "changed_from_original": [
-    "index.html:head_metadata_base_only"
+  "public_bytes": 4251119,
+  "changed_source_paths": [
+    "README.md",
+    "assets/css/content-interface.css",
+    "assets/img/content-r3/dining-map.svg",
+    "assets/img/content-r3/storage-map.svg",
+    "assets/img/content-r3/working-sheet.svg",
+    "assets/js/content.js",
+    "index.html",
+    "site.webmanifest"
   ],
-  "original_body_sha256": "cec81b42bf7df2d9ba29b7138bd9d4189202c53245b03b8852a08c079dbdd49e",
-  "body_and_all_copied_assets_identical": true,
-  "static_local_references_checked": 105,
+  "unchanged_baseline_source_paths": 55,
+  "body_and_all_assets_identical": false,
+  "frozen_geometry_h1_h2_photos_fonts_vendor_main_js_pass": true,
+  "gallery_filter_faq_js_prefix_unchanged": true,
+  "svg_geometry_excluding_title_desc_identical": true,
+  "existing_interface_css_prefix_unchanged": true,
+  "semantic_marker_matches": 0,
+  "local_references_checked": 105,
+  "duplicate_ids": 0,
   "second_build_inventory_identical": true,
-  "planned_pages_base": "https://sadikovsa.github.io/interior-atelier-v2/",
-  "deployment_verified": false
+  "static_checks_only": true,
+  "new_ui_runtime_qa": "pending focused QA; no browser/frontend deployment performed",
+  "live_pages_url": "https://sadikovsa.github.io/interior-atelier-v2/",
+  "new_deployment_verified": false
 }

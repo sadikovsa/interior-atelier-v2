@@ -7,8 +7,8 @@
   "files": [
     {
       "path": "index.html",
-      "bytes": 41829,
-      "sha256": "54798ce6d482ddaa4f8fe8f47ec29f6fac9f54355c6b90f2b1c789040349d707"
+      "bytes": 41880,
+      "sha256": "c5beff7bb334ecddd0aa5267967b23a9772a1213229200f2c4402faa75b5b722"
     },
     {
       "path": "robots.txt",
@@ -22,8 +22,8 @@
     },
     {
       "path": "site.webmanifest",
-      "bytes": 534,
-      "sha256": "d41926e25ab5de64f40ceb04f2da39eaf073c8a7eee8d76727bdd8e50986601a"
+      "bytes": 528,
+      "sha256": "f29178dd28d3cf57957dae9d5cf10dd4950b30fb14f8572c1e938dd14f0fb25b"
     },
     {
       "path": ".nojekyll",
@@ -47,8 +47,8 @@
     },
     {
       "path": "assets/css/content-interface.css",
-      "bytes": 5726,
-      "sha256": "ade8eef33cc73fec6b0cde13c82c188169b7a19c2663867f21a3182255247b77"
+      "bytes": 6054,
+      "sha256": "edc4de2ad959cb2051f15a7797fa6c0a34c6d6e6acc46565982cf8483acb8f2a"
     },
     {
       "path": "assets/css/content-layout.css",
@@ -177,8 +177,8 @@
     },
     {
       "path": "assets/img/content-r3/dining-map.svg",
-      "bytes": 1300,
-      "sha256": "28414c29d74acf01d561450ba0241cc8dec3ede4e78659a2b1aef3cc69279eda"
+      "bytes": 1289,
+      "sha256": "719dc4c34a6a7b2f2fe1304c261563a95e243848cc5655747ec04233d13f6aba"
     },
     {
       "path": "assets/img/content-r3/storage-1448.webp",
@@ -197,8 +197,8 @@
     },
     {
       "path": "assets/img/content-r3/storage-map.svg",
-      "bytes": 1504,
-      "sha256": "c012e965e0aa8195da299ecaaa73dc635cf58fad9ea5b12e8baa28a5cfb58980"
+      "bytes": 1493,
+      "sha256": "fd675fb70b726ab1530b9cab65666f9d0abb91fbfcf73a10c469261f4aa41239"
     },
     {
       "path": "assets/img/content-r3/terrace-1536.webp",
@@ -217,8 +217,8 @@
     },
     {
       "path": "assets/img/content-r3/working-sheet.svg",
-      "bytes": 1510,
-      "sha256": "47837db4c672b866dee5810f799d975ad83f783ee00700cc268898b4b0d93140"
+      "bytes": 1471,
+      "sha256": "749a58809cbdfd161419ca80c9f73343700a0bb8fc06adb2536a64f2b37629fe"
     },
     {
       "path": "assets/img/hero-1672.webp",
@@ -252,8 +252,8 @@
     },
     {
       "path": "assets/js/content.js",
-      "bytes": 5861,
-      "sha256": "274fc563465a1abdb2272a8bbe0ebea0207a2af9f4b20019dff68ddbc5272abe"
+      "bytes": 8755,
+      "sha256": "6330d153a5accd0d7bee276d7b1a22f90ac5bfb346367f3c11ad43e2082484b3"
     },
     {
       "path": "assets/js/main.js",

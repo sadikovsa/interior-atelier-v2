@@ -1,528 +1,448 @@
 {
-  "schema_version": 1,
-  "copied_files": 58,
+  "schema_version": 2,
+  "scope": "current edited source; historical original-copy inventory is in history/SOURCE-INVENTORY.before-cleanup.json",
+  "all_body_assets_identical": false,
   "files": [
     {
-      "path": "index.html",
-      "original_path": "interior-atelier-v2/index.html",
-      "original_bytes": 41983,
-      "copied_bytes": 41829,
-      "original_sha256": "c547ee534a350c1adcbd7689c13b9331b2e273a55a2f5611496b35d4909955f1",
-      "copied_sha256": "54798ce6d482ddaa4f8fe8f47ec29f6fac9f54355c6b90f2b1c789040349d707",
-      "change": "head_metadata_base_only"
+      "path": ".gitignore",
+      "bytes": 19,
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+      "baseline_sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+      "change": "unchanged"
     },
     {
-      "path": "robots.txt",
-      "original_path": "interior-atelier-v2/robots.txt",
-      "original_bytes": 145,
-      "copied_bytes": 145,
-      "original_sha256": "3f6420c0e4a40d2e5c00ae798cb5d9b38210c904ed946a015e6600316b8974e3",
-      "copied_sha256": "3f6420c0e4a40d2e5c00ae798cb5d9b38210c904ed946a015e6600316b8974e3",
-      "change": "byte_identical"
-    },
-    {
-      "path": "sitemap.xml",
-      "original_path": "interior-atelier-v2/sitemap.xml",
-      "original_bytes": 166,
-      "copied_bytes": 166,
-      "original_sha256": "8d22e5c289583cb613a481e23b49fd9b06801ab3a38976575c61e3d167ceffc3",
-      "copied_sha256": "8d22e5c289583cb613a481e23b49fd9b06801ab3a38976575c61e3d167ceffc3",
-      "change": "byte_identical"
-    },
-    {
-      "path": "site.webmanifest",
-      "original_path": "interior-atelier-v2/site.webmanifest",
-      "original_bytes": 534,
-      "copied_bytes": 534,
-      "original_sha256": "d41926e25ab5de64f40ceb04f2da39eaf073c8a7eee8d76727bdd8e50986601a",
-      "copied_sha256": "d41926e25ab5de64f40ceb04f2da39eaf073c8a7eee8d76727bdd8e50986601a",
-      "change": "byte_identical"
-    },
-    {
-      "path": "DESIGN.md",
-      "original_path": "interior-atelier-v2/DESIGN.md",
-      "original_bytes": 13246,
-      "copied_bytes": 13246,
-      "original_sha256": "4459824ef91e896fec8e9ea699b107d895dbd7e6dff47db3a1b91cab3ca563f4",
-      "copied_sha256": "4459824ef91e896fec8e9ea699b107d895dbd7e6dff47db3a1b91cab3ca563f4",
-      "change": "byte_identical"
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "baseline_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "change": "unchanged"
     },
     {
       "path": ".studio/design.json",
-      "original_path": "interior-atelier-v2/.studio/design.json",
-      "original_bytes": 9153,
-      "copied_bytes": 9153,
-      "original_sha256": "08cc25349bf2f5ebc7fb6990b9c67b98cbb506ac755d3a2a576f244978b7c8e7",
-      "copied_sha256": "08cc25349bf2f5ebc7fb6990b9c67b98cbb506ac755d3a2a576f244978b7c8e7",
-      "change": "byte_identical"
+      "bytes": 9153,
+      "sha256": "08cc25349bf2f5ebc7fb6990b9c67b98cbb506ac755d3a2a576f244978b7c8e7",
+      "baseline_sha256": "08cc25349bf2f5ebc7fb6990b9c67b98cbb506ac755d3a2a576f244978b7c8e7",
+      "change": "unchanged"
+    },
+    {
+      "path": "DESIGN.md",
+      "bytes": 13246,
+      "sha256": "4459824ef91e896fec8e9ea699b107d895dbd7e6dff47db3a1b91cab3ca563f4",
+      "baseline_sha256": "4459824ef91e896fec8e9ea699b107d895dbd7e6dff47db3a1b91cab3ca563f4",
+      "change": "unchanged"
+    },
+    {
+      "path": "PUBLICATION.json",
+      "bytes": 1074,
+      "sha256": "21fef6cbdce03ed4314ebb47d8f87f61cbb8efdc05985dcb98405132ed17dc2d",
+      "baseline_sha256": "21fef6cbdce03ed4314ebb47d8f87f61cbb8efdc05985dcb98405132ed17dc2d",
+      "change": "unchanged"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3508,
+      "sha256": "102ea5e372592e590ab1c55a2f8148fd58964f50802a427bfa58a04ce593fd37",
+      "baseline_sha256": "74e7537c2d1516a3b18e391ed58d01096178bb16883415470d1c89ff2ff16053",
+      "change": "new_or_changed"
     },
     {
       "path": "assets/css/base.css",
-      "original_path": "interior-atelier-v2/assets/css/base.css",
-      "original_bytes": 2088,
-      "copied_bytes": 2088,
-      "original_sha256": "eb49dafb7b95ea111597aa524d95039d3107bde4775e7d5d1b01dff6009a463c",
-      "copied_sha256": "eb49dafb7b95ea111597aa524d95039d3107bde4775e7d5d1b01dff6009a463c",
-      "change": "byte_identical"
+      "bytes": 2088,
+      "sha256": "eb49dafb7b95ea111597aa524d95039d3107bde4775e7d5d1b01dff6009a463c",
+      "baseline_sha256": "eb49dafb7b95ea111597aa524d95039d3107bde4775e7d5d1b01dff6009a463c",
+      "change": "unchanged"
     },
     {
       "path": "assets/css/components.css",
-      "original_path": "interior-atelier-v2/assets/css/components.css",
-      "original_bytes": 3379,
-      "copied_bytes": 3379,
-      "original_sha256": "d338815623079a1d428e2dcef2170dc574c32ca1cbda5ade1a4c7dc1a569f076",
-      "copied_sha256": "d338815623079a1d428e2dcef2170dc574c32ca1cbda5ade1a4c7dc1a569f076",
-      "change": "byte_identical"
+      "bytes": 3379,
+      "sha256": "d338815623079a1d428e2dcef2170dc574c32ca1cbda5ade1a4c7dc1a569f076",
+      "baseline_sha256": "d338815623079a1d428e2dcef2170dc574c32ca1cbda5ade1a4c7dc1a569f076",
+      "change": "unchanged"
     },
     {
       "path": "assets/css/content-fonts.css",
-      "original_path": "interior-atelier-v2/assets/css/content-fonts.css",
-      "original_bytes": 80,
-      "copied_bytes": 80,
-      "original_sha256": "bf172a3a8154f2954f2c2a13d46071608322a35e64709bf5906172f0aab194f4",
-      "copied_sha256": "bf172a3a8154f2954f2c2a13d46071608322a35e64709bf5906172f0aab194f4",
-      "change": "byte_identical"
+      "bytes": 80,
+      "sha256": "bf172a3a8154f2954f2c2a13d46071608322a35e64709bf5906172f0aab194f4",
+      "baseline_sha256": "bf172a3a8154f2954f2c2a13d46071608322a35e64709bf5906172f0aab194f4",
+      "change": "unchanged"
     },
     {
       "path": "assets/css/content-interface.css",
-      "original_path": "interior-atelier-v2/assets/css/content-interface.css",
-      "original_bytes": 5726,
-      "copied_bytes": 5726,
-      "original_sha256": "ade8eef33cc73fec6b0cde13c82c188169b7a19c2663867f21a3182255247b77",
-      "copied_sha256": "ade8eef33cc73fec6b0cde13c82c188169b7a19c2663867f21a3182255247b77",
-      "change": "byte_identical"
+      "bytes": 6054,
+      "sha256": "edc4de2ad959cb2051f15a7797fa6c0a34c6d6e6acc46565982cf8483acb8f2a",
+      "baseline_sha256": "ade8eef33cc73fec6b0cde13c82c188169b7a19c2663867f21a3182255247b77",
+      "change": "new_or_changed"
     },
     {
       "path": "assets/css/content-layout.css",
-      "original_path": "interior-atelier-v2/assets/css/content-layout.css",
-      "original_bytes": 19284,
-      "copied_bytes": 19284,
-      "original_sha256": "2897b0e7d3aeb1529dba3f48bb75cde91db9068f10f643251b107c56044a47fa",
-      "copied_sha256": "2897b0e7d3aeb1529dba3f48bb75cde91db9068f10f643251b107c56044a47fa",
-      "change": "byte_identical"
+      "bytes": 19284,
+      "sha256": "2897b0e7d3aeb1529dba3f48bb75cde91db9068f10f643251b107c56044a47fa",
+      "baseline_sha256": "2897b0e7d3aeb1529dba3f48bb75cde91db9068f10f643251b107c56044a47fa",
+      "change": "unchanged"
     },
     {
       "path": "assets/css/layout.css",
-      "original_path": "interior-atelier-v2/assets/css/layout.css",
-      "original_bytes": 4627,
-      "copied_bytes": 4627,
-      "original_sha256": "fd8719c4627b496c8bb7def8c3245ddfc2c24a1d55aa6335e2a353ce9db2e6d0",
-      "copied_sha256": "fd8719c4627b496c8bb7def8c3245ddfc2c24a1d55aa6335e2a353ce9db2e6d0",
-      "change": "byte_identical"
+      "bytes": 4627,
+      "sha256": "fd8719c4627b496c8bb7def8c3245ddfc2c24a1d55aa6335e2a353ce9db2e6d0",
+      "baseline_sha256": "fd8719c4627b496c8bb7def8c3245ddfc2c24a1d55aa6335e2a353ce9db2e6d0",
+      "change": "unchanged"
     },
     {
       "path": "assets/css/motion.css",
-      "original_path": "interior-atelier-v2/assets/css/motion.css",
-      "original_bytes": 4613,
-      "copied_bytes": 4613,
-      "original_sha256": "c37df547374fdb4a3c0d918b224208b3a303ebf49a66c13ce241a662045cdab0",
-      "copied_sha256": "c37df547374fdb4a3c0d918b224208b3a303ebf49a66c13ce241a662045cdab0",
-      "change": "byte_identical"
+      "bytes": 4613,
+      "sha256": "c37df547374fdb4a3c0d918b224208b3a303ebf49a66c13ce241a662045cdab0",
+      "baseline_sha256": "c37df547374fdb4a3c0d918b224208b3a303ebf49a66c13ce241a662045cdab0",
+      "change": "unchanged"
     },
     {
       "path": "assets/css/tokens.css",
-      "original_path": "interior-atelier-v2/assets/css/tokens.css",
-      "original_bytes": 1257,
-      "copied_bytes": 1257,
-      "original_sha256": "2787fec5f7b8b8d681e8a449982813ba285820c5b5cf3bbac1ed662231d21abe",
-      "copied_sha256": "2787fec5f7b8b8d681e8a449982813ba285820c5b5cf3bbac1ed662231d21abe",
-      "change": "byte_identical"
+      "bytes": 1257,
+      "sha256": "2787fec5f7b8b8d681e8a449982813ba285820c5b5cf3bbac1ed662231d21abe",
+      "baseline_sha256": "2787fec5f7b8b8d681e8a449982813ba285820c5b5cf3bbac1ed662231d21abe",
+      "change": "unchanged"
     },
     {
       "path": "assets/fonts/commissioner-OFL.txt",
-      "original_path": "interior-atelier-v2/assets/fonts/commissioner-OFL.txt",
-      "original_bytes": 4395,
-      "copied_bytes": 4395,
-      "original_sha256": "4a7d88c77b4bc39ff84f2e058ba8f015636c50ce33588a86d9da97defe519933",
-      "copied_sha256": "4a7d88c77b4bc39ff84f2e058ba8f015636c50ce33588a86d9da97defe519933",
-      "change": "byte_identical"
+      "bytes": 4395,
+      "sha256": "4a7d88c77b4bc39ff84f2e058ba8f015636c50ce33588a86d9da97defe519933",
+      "baseline_sha256": "4a7d88c77b4bc39ff84f2e058ba8f015636c50ce33588a86d9da97defe519933",
+      "change": "unchanged"
     },
     {
       "path": "assets/fonts/commissioner-cyrillic-ext.woff2",
-      "original_path": "interior-atelier-v2/assets/fonts/commissioner-cyrillic-ext.woff2",
-      "original_bytes": 28068,
-      "copied_bytes": 28068,
-      "original_sha256": "dc67c8d7ffa7feb421d5895b89a0f0f0e5bf3e86b79d59aa60dc9070efbf65c4",
-      "copied_sha256": "dc67c8d7ffa7feb421d5895b89a0f0f0e5bf3e86b79d59aa60dc9070efbf65c4",
-      "change": "byte_identical"
+      "bytes": 28068,
+      "sha256": "dc67c8d7ffa7feb421d5895b89a0f0f0e5bf3e86b79d59aa60dc9070efbf65c4",
+      "baseline_sha256": "dc67c8d7ffa7feb421d5895b89a0f0f0e5bf3e86b79d59aa60dc9070efbf65c4",
+      "change": "unchanged"
     },
     {
       "path": "assets/fonts/commissioner-cyrillic.woff2",
-      "original_path": "interior-atelier-v2/assets/fonts/commissioner-cyrillic.woff2",
-      "original_bytes": 26188,
-      "copied_bytes": 26188,
-      "original_sha256": "1cb81390574ac797658ecabb9d6c50648b01506909c9b0c0c315fbe89f83a689",
-      "copied_sha256": "1cb81390574ac797658ecabb9d6c50648b01506909c9b0c0c315fbe89f83a689",
-      "change": "byte_identical"
+      "bytes": 26188,
+      "sha256": "1cb81390574ac797658ecabb9d6c50648b01506909c9b0c0c315fbe89f83a689",
+      "baseline_sha256": "1cb81390574ac797658ecabb9d6c50648b01506909c9b0c0c315fbe89f83a689",
+      "change": "unchanged"
     },
     {
       "path": "assets/fonts/commissioner-latin.woff2",
-      "original_path": "interior-atelier-v2/assets/fonts/commissioner-latin.woff2",
-      "original_bytes": 36700,
-      "copied_bytes": 36700,
-      "original_sha256": "e3d539b926881fbb3592788297eee24d6d179c1c06dbad36805fc722775247ce",
-      "copied_sha256": "e3d539b926881fbb3592788297eee24d6d179c1c06dbad36805fc722775247ce",
-      "change": "byte_identical"
+      "bytes": 36700,
+      "sha256": "e3d539b926881fbb3592788297eee24d6d179c1c06dbad36805fc722775247ce",
+      "baseline_sha256": "e3d539b926881fbb3592788297eee24d6d179c1c06dbad36805fc722775247ce",
+      "change": "unchanged"
     },
     {
       "path": "assets/fonts/commissioner.css",
-      "original_path": "interior-atelier-v2/assets/fonts/commissioner.css",
-      "original_bytes": 865,
-      "copied_bytes": 865,
-      "original_sha256": "da3541c73b36232f2305942093ee92bf7bca0125aa52b6fb4ecc0f9b5f1ea0f9",
-      "copied_sha256": "da3541c73b36232f2305942093ee92bf7bca0125aa52b6fb4ecc0f9b5f1ea0f9",
-      "change": "byte_identical"
+      "bytes": 865,
+      "sha256": "da3541c73b36232f2305942093ee92bf7bca0125aa52b6fb4ecc0f9b5f1ea0f9",
+      "baseline_sha256": "da3541c73b36232f2305942093ee92bf7bca0125aa52b6fb4ecc0f9b5f1ea0f9",
+      "change": "unchanged"
     },
     {
       "path": "assets/fonts/literata-OFL.txt",
-      "original_path": "interior-atelier-v2/assets/fonts/literata-OFL.txt",
-      "original_bytes": 4389,
-      "copied_bytes": 4389,
-      "original_sha256": "8742963604cd89dc81437811a850018fc03b2bfad686d7422c8235967c87614e",
-      "copied_sha256": "8742963604cd89dc81437811a850018fc03b2bfad686d7422c8235967c87614e",
-      "change": "byte_identical"
+      "bytes": 4389,
+      "sha256": "8742963604cd89dc81437811a850018fc03b2bfad686d7422c8235967c87614e",
+      "baseline_sha256": "8742963604cd89dc81437811a850018fc03b2bfad686d7422c8235967c87614e",
+      "change": "unchanged"
     },
     {
       "path": "assets/fonts/literata-cyrillic-ext.woff2",
-      "original_path": "interior-atelier-v2/assets/fonts/literata-cyrillic-ext.woff2",
-      "original_bytes": 7396,
-      "copied_bytes": 7396,
-      "original_sha256": "c2abb025bf949ecbd34d59ce32c4e04e4e6ea93ec6f45ed0b6f9c7f4dcf5a200",
-      "copied_sha256": "c2abb025bf949ecbd34d59ce32c4e04e4e6ea93ec6f45ed0b6f9c7f4dcf5a200",
-      "change": "byte_identical"
+      "bytes": 7396,
+      "sha256": "c2abb025bf949ecbd34d59ce32c4e04e4e6ea93ec6f45ed0b6f9c7f4dcf5a200",
+      "baseline_sha256": "c2abb025bf949ecbd34d59ce32c4e04e4e6ea93ec6f45ed0b6f9c7f4dcf5a200",
+      "change": "unchanged"
     },
     {
       "path": "assets/fonts/literata-cyrillic.woff2",
-      "original_path": "interior-atelier-v2/assets/fonts/literata-cyrillic.woff2",
-      "original_bytes": 21008,
-      "copied_bytes": 21008,
-      "original_sha256": "fc542002093cdaa2ed38f3768cbc8a04f639049a91cb73b6d831243517c07369",
-      "copied_sha256": "fc542002093cdaa2ed38f3768cbc8a04f639049a91cb73b6d831243517c07369",
-      "change": "byte_identical"
+      "bytes": 21008,
+      "sha256": "fc542002093cdaa2ed38f3768cbc8a04f639049a91cb73b6d831243517c07369",
+      "baseline_sha256": "fc542002093cdaa2ed38f3768cbc8a04f639049a91cb73b6d831243517c07369",
+      "change": "unchanged"
     },
     {
       "path": "assets/fonts/literata-latin.woff2",
-      "original_path": "interior-atelier-v2/assets/fonts/literata-latin.woff2",
-      "original_bytes": 38996,
-      "copied_bytes": 38996,
-      "original_sha256": "fde3d14f78c3431ee5e2f676a46dd18a1dd48ee4d0a71cc76c751f9e6f76f58e",
-      "copied_sha256": "fde3d14f78c3431ee5e2f676a46dd18a1dd48ee4d0a71cc76c751f9e6f76f58e",
-      "change": "byte_identical"
+      "bytes": 38996,
+      "sha256": "fde3d14f78c3431ee5e2f676a46dd18a1dd48ee4d0a71cc76c751f9e6f76f58e",
+      "baseline_sha256": "fde3d14f78c3431ee5e2f676a46dd18a1dd48ee4d0a71cc76c751f9e6f76f58e",
+      "change": "unchanged"
     },
     {
       "path": "assets/fonts/literata.css",
-      "original_path": "interior-atelier-v2/assets/fonts/literata.css",
-      "original_bytes": 841,
-      "copied_bytes": 841,
-      "original_sha256": "e4902de1ca6cb287ca6ff39e5697ef135b4c8a0f37e75f400f91f4469b8a9c4d",
-      "copied_sha256": "e4902de1ca6cb287ca6ff39e5697ef135b4c8a0f37e75f400f91f4469b8a9c4d",
-      "change": "byte_identical"
+      "bytes": 841,
+      "sha256": "e4902de1ca6cb287ca6ff39e5697ef135b4c8a0f37e75f400f91f4469b8a9c4d",
+      "baseline_sha256": "e4902de1ca6cb287ca6ff39e5697ef135b4c8a0f37e75f400f91f4469b8a9c4d",
+      "change": "unchanged"
     },
     {
       "path": "assets/fonts/manifest.json",
-      "original_path": "interior-atelier-v2/assets/fonts/manifest.json",
-      "original_bytes": 1995,
-      "copied_bytes": 1995,
-      "original_sha256": "b862c79f67176defe69bc302bba1d860ca83b7db482895306c5b3058deb4fa5e",
-      "copied_sha256": "b862c79f67176defe69bc302bba1d860ca83b7db482895306c5b3058deb4fa5e",
-      "change": "byte_identical"
+      "bytes": 1995,
+      "sha256": "b862c79f67176defe69bc302bba1d860ca83b7db482895306c5b3058deb4fa5e",
+      "baseline_sha256": "b862c79f67176defe69bc302bba1d860ca83b7db482895306c5b3058deb4fa5e",
+      "change": "unchanged"
     },
     {
       "path": "assets/icons/apple-touch-icon.png",
-      "original_path": "interior-atelier-v2/assets/icons/apple-touch-icon.png",
-      "original_bytes": 1061,
-      "copied_bytes": 1061,
-      "original_sha256": "aad6d8fe1d09b9d4d82f575639bf666a9def3fe0026479039860d6beb02595b1",
-      "copied_sha256": "aad6d8fe1d09b9d4d82f575639bf666a9def3fe0026479039860d6beb02595b1",
-      "change": "byte_identical"
+      "bytes": 1061,
+      "sha256": "aad6d8fe1d09b9d4d82f575639bf666a9def3fe0026479039860d6beb02595b1",
+      "baseline_sha256": "aad6d8fe1d09b9d4d82f575639bf666a9def3fe0026479039860d6beb02595b1",
+      "change": "unchanged"
     },
     {
       "path": "assets/icons/favicon-16.png",
-      "original_path": "interior-atelier-v2/assets/icons/favicon-16.png",
-      "original_bytes": 299,
-      "copied_bytes": 299,
-      "original_sha256": "77f92bd1c27e63486f8310d91f278859f9b7e1caab6293b0c9a86d82e6bc5652",
-      "copied_sha256": "77f92bd1c27e63486f8310d91f278859f9b7e1caab6293b0c9a86d82e6bc5652",
-      "change": "byte_identical"
+      "bytes": 299,
+      "sha256": "77f92bd1c27e63486f8310d91f278859f9b7e1caab6293b0c9a86d82e6bc5652",
+      "baseline_sha256": "77f92bd1c27e63486f8310d91f278859f9b7e1caab6293b0c9a86d82e6bc5652",
+      "change": "unchanged"
     },
     {
       "path": "assets/icons/favicon-32.png",
-      "original_path": "interior-atelier-v2/assets/icons/favicon-32.png",
-      "original_bytes": 421,
-      "copied_bytes": 421,
-      "original_sha256": "1f53fa4aaada3ad75e0df0fc45f3744fba05c9fe3604ebd0a901f2744e103890",
-      "copied_sha256": "1f53fa4aaada3ad75e0df0fc45f3744fba05c9fe3604ebd0a901f2744e103890",
-      "change": "byte_identical"
+      "bytes": 421,
+      "sha256": "1f53fa4aaada3ad75e0df0fc45f3744fba05c9fe3604ebd0a901f2744e103890",
+      "baseline_sha256": "1f53fa4aaada3ad75e0df0fc45f3744fba05c9fe3604ebd0a901f2744e103890",
+      "change": "unchanged"
     },
     {
       "path": "assets/icons/favicon.ico",
-      "original_path": "interior-atelier-v2/assets/icons/favicon.ico",
-      "original_bytes": 1227,
-      "copied_bytes": 1227,
-      "original_sha256": "0d23723819304abc7d25e4eab1d3feb3f4293a55980bd1fe3a0ac18a9c4e4ccc",
-      "copied_sha256": "0d23723819304abc7d25e4eab1d3feb3f4293a55980bd1fe3a0ac18a9c4e4ccc",
-      "change": "byte_identical"
+      "bytes": 1227,
+      "sha256": "0d23723819304abc7d25e4eab1d3feb3f4293a55980bd1fe3a0ac18a9c4e4ccc",
+      "baseline_sha256": "0d23723819304abc7d25e4eab1d3feb3f4293a55980bd1fe3a0ac18a9c4e4ccc",
+      "change": "unchanged"
     },
     {
       "path": "assets/icons/favicon.svg",
-      "original_path": "interior-atelier-v2/assets/icons/favicon.svg",
-      "original_bytes": 174,
-      "copied_bytes": 174,
-      "original_sha256": "fd9d736ebab29ea6f622619cb2f7e853767e765cc74d22bb4f95f081a13f57cd",
-      "copied_sha256": "fd9d736ebab29ea6f622619cb2f7e853767e765cc74d22bb4f95f081a13f57cd",
-      "change": "byte_identical"
+      "bytes": 174,
+      "sha256": "fd9d736ebab29ea6f622619cb2f7e853767e765cc74d22bb4f95f081a13f57cd",
+      "baseline_sha256": "fd9d736ebab29ea6f622619cb2f7e853767e765cc74d22bb4f95f081a13f57cd",
+      "change": "unchanged"
     },
     {
       "path": "assets/icons/icon-192.png",
-      "original_path": "interior-atelier-v2/assets/icons/icon-192.png",
-      "original_bytes": 1052,
-      "copied_bytes": 1052,
-      "original_sha256": "d23854306773da6be35a139a3a3f9d0eb1e6582dbd867ca7f30508ac11715415",
-      "copied_sha256": "d23854306773da6be35a139a3a3f9d0eb1e6582dbd867ca7f30508ac11715415",
-      "change": "byte_identical"
+      "bytes": 1052,
+      "sha256": "d23854306773da6be35a139a3a3f9d0eb1e6582dbd867ca7f30508ac11715415",
+      "baseline_sha256": "d23854306773da6be35a139a3a3f9d0eb1e6582dbd867ca7f30508ac11715415",
+      "change": "unchanged"
     },
     {
       "path": "assets/icons/icon-512.png",
-      "original_path": "interior-atelier-v2/assets/icons/icon-512.png",
-      "original_bytes": 1921,
-      "copied_bytes": 1921,
-      "original_sha256": "257df11ba44941fe65ae5b04fa298c52bcc808caeb9643f2b79559575fb507cb",
-      "copied_sha256": "257df11ba44941fe65ae5b04fa298c52bcc808caeb9643f2b79559575fb507cb",
-      "change": "byte_identical"
+      "bytes": 1921,
+      "sha256": "257df11ba44941fe65ae5b04fa298c52bcc808caeb9643f2b79559575fb507cb",
+      "baseline_sha256": "257df11ba44941fe65ae5b04fa298c52bcc808caeb9643f2b79559575fb507cb",
+      "change": "unchanged"
     },
     {
       "path": "assets/img/content-r3/dining-1448.webp",
-      "original_path": "interior-atelier-v2/assets/img/content-r3/dining-1448.webp",
-      "original_bytes": 393466,
-      "copied_bytes": 393466,
-      "original_sha256": "d165e019096cf856772975f023eabf3ea8b9508e9d5dbbf4c16919c83650c898",
-      "copied_sha256": "d165e019096cf856772975f023eabf3ea8b9508e9d5dbbf4c16919c83650c898",
-      "change": "byte_identical"
+      "bytes": 393466,
+      "sha256": "d165e019096cf856772975f023eabf3ea8b9508e9d5dbbf4c16919c83650c898",
+      "baseline_sha256": "d165e019096cf856772975f023eabf3ea8b9508e9d5dbbf4c16919c83650c898",
+      "change": "unchanged"
     },
     {
       "path": "assets/img/content-r3/dining-640.webp",
-      "original_path": "interior-atelier-v2/assets/img/content-r3/dining-640.webp",
-      "original_bytes": 85332,
-      "copied_bytes": 85332,
-      "original_sha256": "60d8e78af0a1ef8270af9f7b674ccb268b572e0052ec05595efd9b1f99ec0a93",
-      "copied_sha256": "60d8e78af0a1ef8270af9f7b674ccb268b572e0052ec05595efd9b1f99ec0a93",
-      "change": "byte_identical"
+      "bytes": 85332,
+      "sha256": "60d8e78af0a1ef8270af9f7b674ccb268b572e0052ec05595efd9b1f99ec0a93",
+      "baseline_sha256": "60d8e78af0a1ef8270af9f7b674ccb268b572e0052ec05595efd9b1f99ec0a93",
+      "change": "unchanged"
     },
     {
       "path": "assets/img/content-r3/dining-960.webp",
-      "original_path": "interior-atelier-v2/assets/img/content-r3/dining-960.webp",
-      "original_bytes": 196132,
-      "copied_bytes": 196132,
-      "original_sha256": "361be286955eb5205f52f41ab90dee475fdf99bce2b513f96ae9cc7b032afeb2",
-      "copied_sha256": "361be286955eb5205f52f41ab90dee475fdf99bce2b513f96ae9cc7b032afeb2",
-      "change": "byte_identical"
+      "bytes": 196132,
+      "sha256": "361be286955eb5205f52f41ab90dee475fdf99bce2b513f96ae9cc7b032afeb2",
+      "baseline_sha256": "361be286955eb5205f52f41ab90dee475fdf99bce2b513f96ae9cc7b032afeb2",
+      "change": "unchanged"
     },
     {
       "path": "assets/img/content-r3/dining-map.svg",
-      "original_path": "interior-atelier-v2/assets/img/content-r3/dining-map.svg",
-      "original_bytes": 1300,
-      "copied_bytes": 1300,
-      "original_sha256": "28414c29d74acf01d561450ba0241cc8dec3ede4e78659a2b1aef3cc69279eda",
-      "copied_sha256": "28414c29d74acf01d561450ba0241cc8dec3ede4e78659a2b1aef3cc69279eda",
-      "change": "byte_identical"
+      "bytes": 1289,
+      "sha256": "719dc4c34a6a7b2f2fe1304c261563a95e243848cc5655747ec04233d13f6aba",
+      "baseline_sha256": "28414c29d74acf01d561450ba0241cc8dec3ede4e78659a2b1aef3cc69279eda",
+      "change": "new_or_changed"
     },
     {
       "path": "assets/img/content-r3/provenance.json",
-      "original_path": "interior-atelier-v2/assets/img/content-r3/provenance.json",
-      "original_bytes": 3086,
-      "copied_bytes": 3086,
-      "original_sha256": "76908551ca9857b8de3f1af9c9d023e86b80462b2a7395a44bda18748fcb8f06",
-      "copied_sha256": "76908551ca9857b8de3f1af9c9d023e86b80462b2a7395a44bda18748fcb8f06",
-      "change": "byte_identical"
+      "bytes": 3086,
+      "sha256": "76908551ca9857b8de3f1af9c9d023e86b80462b2a7395a44bda18748fcb8f06",
+      "baseline_sha256": "76908551ca9857b8de3f1af9c9d023e86b80462b2a7395a44bda18748fcb8f06",
+      "change": "unchanged"
     },
     {
       "path": "assets/img/content-r3/storage-1448.webp",
-      "original_path": "interior-atelier-v2/assets/img/content-r3/storage-1448.webp",
-      "original_bytes": 353146,
-      "copied_bytes": 353146,
-      "original_sha256": "9bbcb23e896e1d52ff6349cf0a0ea64f5154c3e8b948274701c5540beb5a31ff",
-      "copied_sha256": "9bbcb23e896e1d52ff6349cf0a0ea64f5154c3e8b948274701c5540beb5a31ff",
-      "change": "byte_identical"
+      "bytes": 353146,
+      "sha256": "9bbcb23e896e1d52ff6349cf0a0ea64f5154c3e8b948274701c5540beb5a31ff",
+      "baseline_sha256": "9bbcb23e896e1d52ff6349cf0a0ea64f5154c3e8b948274701c5540beb5a31ff",
+      "change": "unchanged"
     },
     {
       "path": "assets/img/content-r3/storage-640.webp",
-      "original_path": "interior-atelier-v2/assets/img/content-r3/storage-640.webp",
-      "original_bytes": 71826,
-      "copied_bytes": 71826,
-      "original_sha256": "73216e8a4b6e7b0f3fa4b1d76f2f94eb516bf7a57c22ad738b338d3cb6e95bf8",
-      "copied_sha256": "73216e8a4b6e7b0f3fa4b1d76f2f94eb516bf7a57c22ad738b338d3cb6e95bf8",
-      "change": "byte_identical"
+      "bytes": 71826,
+      "sha256": "73216e8a4b6e7b0f3fa4b1d76f2f94eb516bf7a57c22ad738b338d3cb6e95bf8",
+      "baseline_sha256": "73216e8a4b6e7b0f3fa4b1d76f2f94eb516bf7a57c22ad738b338d3cb6e95bf8",
+      "change": "unchanged"
     },
     {
       "path": "assets/img/content-r3/storage-960.webp",
-      "original_path": "interior-atelier-v2/assets/img/content-r3/storage-960.webp",
-      "original_bytes": 172702,
-      "copied_bytes": 172702,
-      "original_sha256": "e0c97a20a82776bda6fe6fe69f7ab850345e3a850642a68f0bca990b6996f27e",
-      "copied_sha256": "e0c97a20a82776bda6fe6fe69f7ab850345e3a850642a68f0bca990b6996f27e",
-      "change": "byte_identical"
+      "bytes": 172702,
+      "sha256": "e0c97a20a82776bda6fe6fe69f7ab850345e3a850642a68f0bca990b6996f27e",
+      "baseline_sha256": "e0c97a20a82776bda6fe6fe69f7ab850345e3a850642a68f0bca990b6996f27e",
+      "change": "unchanged"
     },
     {
       "path": "assets/img/content-r3/storage-map.svg",
-      "original_path": "interior-atelier-v2/assets/img/content-r3/storage-map.svg",
-      "original_bytes": 1504,
-      "copied_bytes": 1504,
-      "original_sha256": "c012e965e0aa8195da299ecaaa73dc635cf58fad9ea5b12e8baa28a5cfb58980",
-      "copied_sha256": "c012e965e0aa8195da299ecaaa73dc635cf58fad9ea5b12e8baa28a5cfb58980",
-      "change": "byte_identical"
+      "bytes": 1493,
+      "sha256": "fd675fb70b726ab1530b9cab65666f9d0abb91fbfcf73a10c469261f4aa41239",
+      "baseline_sha256": "c012e965e0aa8195da299ecaaa73dc635cf58fad9ea5b12e8baa28a5cfb58980",
+      "change": "new_or_changed"
     },
     {
       "path": "assets/img/content-r3/terrace-1536.webp",
-      "original_path": "interior-atelier-v2/assets/img/content-r3/terrace-1536.webp",
-      "original_bytes": 427342,
-      "copied_bytes": 427342,
-      "original_sha256": "3859b162535404b3ba1188822d0cc9723a85aae729f043a906a8fd8026a88a60",
-      "copied_sha256": "3859b162535404b3ba1188822d0cc9723a85aae729f043a906a8fd8026a88a60",
-      "change": "byte_identical"
+      "bytes": 427342,
+      "sha256": "3859b162535404b3ba1188822d0cc9723a85aae729f043a906a8fd8026a88a60",
+      "baseline_sha256": "3859b162535404b3ba1188822d0cc9723a85aae729f043a906a8fd8026a88a60",
+      "change": "unchanged"
     },
     {
       "path": "assets/img/content-r3/terrace-640.webp",
-      "original_path": "interior-atelier-v2/assets/img/content-r3/terrace-640.webp",
-      "original_bytes": 80728,
-      "copied_bytes": 80728,
-      "original_sha256": "529b932b33f0c9d4958e8c303137ab8fcd6af5f33180b3d4baaa6806cc4cdaae",
-      "copied_sha256": "529b932b33f0c9d4958e8c303137ab8fcd6af5f33180b3d4baaa6806cc4cdaae",
-      "change": "byte_identical"
+      "bytes": 80728,
+      "sha256": "529b932b33f0c9d4958e8c303137ab8fcd6af5f33180b3d4baaa6806cc4cdaae",
+      "baseline_sha256": "529b932b33f0c9d4958e8c303137ab8fcd6af5f33180b3d4baaa6806cc4cdaae",
+      "change": "unchanged"
     },
     {
       "path": "assets/img/content-r3/terrace-960.webp",
-      "original_path": "interior-atelier-v2/assets/img/content-r3/terrace-960.webp",
-      "original_bytes": 183958,
-      "copied_bytes": 183958,
-      "original_sha256": "a4b766f8bb2db76bb6873201ea385acf0933bf069b260a999768571d95185d79",
-      "copied_sha256": "a4b766f8bb2db76bb6873201ea385acf0933bf069b260a999768571d95185d79",
-      "change": "byte_identical"
+      "bytes": 183958,
+      "sha256": "a4b766f8bb2db76bb6873201ea385acf0933bf069b260a999768571d95185d79",
+      "baseline_sha256": "a4b766f8bb2db76bb6873201ea385acf0933bf069b260a999768571d95185d79",
+      "change": "unchanged"
     },
     {
       "path": "assets/img/content-r3/working-sheet.svg",
-      "original_path": "interior-atelier-v2/assets/img/content-r3/working-sheet.svg",
-      "original_bytes": 1510,
-      "copied_bytes": 1510,
-      "original_sha256": "47837db4c672b866dee5810f799d975ad83f783ee00700cc268898b4b0d93140",
-      "copied_sha256": "47837db4c672b866dee5810f799d975ad83f783ee00700cc268898b4b0d93140",
-      "change": "byte_identical"
+      "bytes": 1471,
+      "sha256": "749a58809cbdfd161419ca80c9f73343700a0bb8fc06adb2536a64f2b37629fe",
+      "baseline_sha256": "47837db4c672b866dee5810f799d975ad83f783ee00700cc268898b4b0d93140",
+      "change": "new_or_changed"
     },
     {
       "path": "assets/img/hero-1672.webp",
-      "original_path": "interior-atelier-v2/assets/img/hero-1672.webp",
-      "original_bytes": 493508,
-      "copied_bytes": 493508,
-      "original_sha256": "edddcccd31969b398fab0bfcd3eff929a40247e6d666b6e4d904a7f4f91789c7",
-      "copied_sha256": "edddcccd31969b398fab0bfcd3eff929a40247e6d666b6e4d904a7f4f91789c7",
-      "change": "byte_identical"
+      "bytes": 493508,
+      "sha256": "edddcccd31969b398fab0bfcd3eff929a40247e6d666b6e4d904a7f4f91789c7",
+      "baseline_sha256": "edddcccd31969b398fab0bfcd3eff929a40247e6d666b6e4d904a7f4f91789c7",
+      "change": "unchanged"
     },
     {
       "path": "assets/img/hero-960.webp",
-      "original_path": "interior-atelier-v2/assets/img/hero-960.webp",
-      "original_bytes": 202632,
-      "copied_bytes": 202632,
-      "original_sha256": "811900c947b0cf35426ed632230954c0681a74273c4335adfc616342d3e0f283",
-      "copied_sha256": "811900c947b0cf35426ed632230954c0681a74273c4335adfc616342d3e0f283",
-      "change": "byte_identical"
+      "bytes": 202632,
+      "sha256": "811900c947b0cf35426ed632230954c0681a74273c4335adfc616342d3e0f283",
+      "baseline_sha256": "811900c947b0cf35426ed632230954c0681a74273c4335adfc616342d3e0f283",
+      "change": "unchanged"
     },
     {
       "path": "assets/img/interior-1672.webp",
-      "original_path": "interior-atelier-v2/assets/img/interior-1672.webp",
-      "original_bytes": 464872,
-      "copied_bytes": 464872,
-      "original_sha256": "23afda805a01fcb1f90ee26a464080eef6c8ece14e1908be09d779ffe334c166",
-      "copied_sha256": "23afda805a01fcb1f90ee26a464080eef6c8ece14e1908be09d779ffe334c166",
-      "change": "byte_identical"
+      "bytes": 464872,
+      "sha256": "23afda805a01fcb1f90ee26a464080eef6c8ece14e1908be09d779ffe334c166",
+      "baseline_sha256": "23afda805a01fcb1f90ee26a464080eef6c8ece14e1908be09d779ffe334c166",
+      "change": "unchanged"
     },
     {
       "path": "assets/img/interior-960.webp",
-      "original_path": "interior-atelier-v2/assets/img/interior-960.webp",
-      "original_bytes": 186196,
-      "copied_bytes": 186196,
-      "original_sha256": "fa0292212012fab60efe838416e68229f2004a9f433dcd2760a0d1656c269c97",
-      "copied_sha256": "fa0292212012fab60efe838416e68229f2004a9f433dcd2760a0d1656c269c97",
-      "change": "byte_identical"
+      "bytes": 186196,
+      "sha256": "fa0292212012fab60efe838416e68229f2004a9f433dcd2760a0d1656c269c97",
+      "baseline_sha256": "fa0292212012fab60efe838416e68229f2004a9f433dcd2760a0d1656c269c97",
+      "change": "unchanged"
     },
     {
       "path": "assets/img/mineral-bedroom-1448.webp",
-      "original_path": "interior-atelier-v2/assets/img/mineral-bedroom-1448.webp",
-      "original_bytes": 227176,
-      "copied_bytes": 227176,
-      "original_sha256": "cbcb1556ed78238a2390eae627d1c139c88ba201766efdd4d5cffb4aa2b44df4",
-      "copied_sha256": "cbcb1556ed78238a2390eae627d1c139c88ba201766efdd4d5cffb4aa2b44df4",
-      "change": "byte_identical"
+      "bytes": 227176,
+      "sha256": "cbcb1556ed78238a2390eae627d1c139c88ba201766efdd4d5cffb4aa2b44df4",
+      "baseline_sha256": "cbcb1556ed78238a2390eae627d1c139c88ba201766efdd4d5cffb4aa2b44df4",
+      "change": "unchanged"
     },
     {
       "path": "assets/img/provenance.json",
-      "original_path": "interior-atelier-v2/assets/img/provenance.json",
-      "original_bytes": 643,
-      "copied_bytes": 643,
-      "original_sha256": "3796539f30d00b0bc59610820bbcbb0ab64a1bff3714bc5e16a1ae07966c98ad",
-      "copied_sha256": "3796539f30d00b0bc59610820bbcbb0ab64a1bff3714bc5e16a1ae07966c98ad",
-      "change": "byte_identical"
+      "bytes": 643,
+      "sha256": "3796539f30d00b0bc59610820bbcbb0ab64a1bff3714bc5e16a1ae07966c98ad",
+      "baseline_sha256": "3796539f30d00b0bc59610820bbcbb0ab64a1bff3714bc5e16a1ae07966c98ad",
+      "change": "unchanged"
     },
     {
       "path": "assets/img/timber-house-1448.webp",
-      "original_path": "interior-atelier-v2/assets/img/timber-house-1448.webp",
-      "original_bytes": 312718,
-      "copied_bytes": 312718,
-      "original_sha256": "3eb998246cfcbb17defed335507368fd0abf1c278efbf089f9202ccd9d02193e",
-      "copied_sha256": "3eb998246cfcbb17defed335507368fd0abf1c278efbf089f9202ccd9d02193e",
-      "change": "byte_identical"
+      "bytes": 312718,
+      "sha256": "3eb998246cfcbb17defed335507368fd0abf1c278efbf089f9202ccd9d02193e",
+      "baseline_sha256": "3eb998246cfcbb17defed335507368fd0abf1c278efbf089f9202ccd9d02193e",
+      "change": "unchanged"
     },
     {
       "path": "assets/js/content.js",
-      "original_path": "interior-atelier-v2/assets/js/content.js",
-      "original_bytes": 5861,
-      "copied_bytes": 5861,
-      "original_sha256": "274fc563465a1abdb2272a8bbe0ebea0207a2af9f4b20019dff68ddbc5272abe",
-      "copied_sha256": "274fc563465a1abdb2272a8bbe0ebea0207a2af9f4b20019dff68ddbc5272abe",
-      "change": "byte_identical"
+      "bytes": 8755,
+      "sha256": "6330d153a5accd0d7bee276d7b1a22f90ac5bfb346367f3c11ad43e2082484b3",
+      "baseline_sha256": "274fc563465a1abdb2272a8bbe0ebea0207a2af9f4b20019dff68ddbc5272abe",
+      "change": "new_or_changed"
     },
     {
       "path": "assets/js/main.js",
-      "original_path": "interior-atelier-v2/assets/js/main.js",
-      "original_bytes": 5491,
-      "copied_bytes": 5491,
-      "original_sha256": "4c7c041519992885808a310a340ae88c4eef7ee1f89a855759a368b9e54405bb",
-      "copied_sha256": "4c7c041519992885808a310a340ae88c4eef7ee1f89a855759a368b9e54405bb",
-      "change": "byte_identical"
+      "bytes": 5491,
+      "sha256": "4c7c041519992885808a310a340ae88c4eef7ee1f89a855759a368b9e54405bb",
+      "baseline_sha256": "4c7c041519992885808a310a340ae88c4eef7ee1f89a855759a368b9e54405bb",
+      "change": "unchanged"
     },
     {
       "path": "assets/js/vendor/ScrollTrigger.min.js",
-      "original_path": "interior-atelier-v2/assets/js/vendor/ScrollTrigger.min.js",
-      "original_bytes": 44157,
-      "copied_bytes": 44157,
-      "original_sha256": "308219390e5e3b84cda0c481e70caa9820883ae10bda44e6e9a149a81aac4b3f",
-      "copied_sha256": "308219390e5e3b84cda0c481e70caa9820883ae10bda44e6e9a149a81aac4b3f",
-      "change": "byte_identical"
+      "bytes": 44157,
+      "sha256": "308219390e5e3b84cda0c481e70caa9820883ae10bda44e6e9a149a81aac4b3f",
+      "baseline_sha256": "308219390e5e3b84cda0c481e70caa9820883ae10bda44e6e9a149a81aac4b3f",
+      "change": "unchanged"
     },
     {
       "path": "assets/js/vendor/gsap-package.json",
-      "original_path": "interior-atelier-v2/assets/js/vendor/gsap-package.json",
-      "original_bytes": 1676,
-      "copied_bytes": 1676,
-      "original_sha256": "cba3c19e7852db942fcbd895c8a05e791490e72a20e28c228b86ed4d268615c4",
-      "copied_sha256": "cba3c19e7852db942fcbd895c8a05e791490e72a20e28c228b86ed4d268615c4",
-      "change": "byte_identical"
+      "bytes": 1676,
+      "sha256": "cba3c19e7852db942fcbd895c8a05e791490e72a20e28c228b86ed4d268615c4",
+      "baseline_sha256": "cba3c19e7852db942fcbd895c8a05e791490e72a20e28c228b86ed4d268615c4",
+      "change": "unchanged"
     },
     {
       "path": "assets/js/vendor/gsap.min.js",
-      "original_path": "interior-atelier-v2/assets/js/vendor/gsap.min.js",
-      "original_bytes": 72435,
-      "copied_bytes": 72435,
-      "original_sha256": "96c01b81f44a3290e2b4532f55e2c9534b2adc43273a19f3756b2cb41f0fd0b6",
-      "copied_sha256": "96c01b81f44a3290e2b4532f55e2c9534b2adc43273a19f3756b2cb41f0fd0b6",
-      "change": "byte_identical"
+      "bytes": 72435,
+      "sha256": "96c01b81f44a3290e2b4532f55e2c9534b2adc43273a19f3756b2cb41f0fd0b6",
+      "baseline_sha256": "96c01b81f44a3290e2b4532f55e2c9534b2adc43273a19f3756b2cb41f0fd0b6",
+      "change": "unchanged"
     },
     {
       "path": "assets/masks/environment.svg",
-      "original_path": "interior-atelier-v2/assets/masks/environment.svg",
-      "original_bytes": 1521,
-      "copied_bytes": 1521,
-      "original_sha256": "9b4503532b88963925230dcf12321866a5c0136d953f2645070fe103f9361c3a",
-      "copied_sha256": "9b4503532b88963925230dcf12321866a5c0136d953f2645070fe103f9361c3a",
-      "change": "byte_identical"
+      "bytes": 1521,
+      "sha256": "9b4503532b88963925230dcf12321866a5c0136d953f2645070fe103f9361c3a",
+      "baseline_sha256": "9b4503532b88963925230dcf12321866a5c0136d953f2645070fe103f9361c3a",
+      "change": "unchanged"
+    },
+    {
+      "path": "build.py",
+      "bytes": 2400,
+      "sha256": "b4c8980dd0fd7dadf5a8fc9dcda7a06828218385b122c649c6612da3aaa33d38",
+      "baseline_sha256": "b4c8980dd0fd7dadf5a8fc9dcda7a06828218385b122c649c6612da3aaa33d38",
+      "change": "unchanged"
+    },
+    {
+      "path": "index.html",
+      "bytes": 41880,
+      "sha256": "c5beff7bb334ecddd0aa5267967b23a9772a1213229200f2c4402faa75b5b722",
+      "baseline_sha256": "54798ce6d482ddaa4f8fe8f47ec29f6fac9f54355c6b90f2b1c789040349d707",
+      "change": "new_or_changed"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 145,
+      "sha256": "3f6420c0e4a40d2e5c00ae798cb5d9b38210c904ed946a015e6600316b8974e3",
+      "baseline_sha256": "3f6420c0e4a40d2e5c00ae798cb5d9b38210c904ed946a015e6600316b8974e3",
+      "change": "unchanged"
+    },
+    {
+      "path": "site.webmanifest",
+      "bytes": 528,
+      "sha256": "f29178dd28d3cf57957dae9d5cf10dd4950b30fb14f8572c1e938dd14f0fb25b",
+      "baseline_sha256": "d41926e25ab5de64f40ceb04f2da39eaf073c8a7eee8d76727bdd8e50986601a",
+      "change": "new_or_changed"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 166,
+      "sha256": "8d22e5c289583cb613a481e23b49fd9b06801ab3a38976575c61e3d167ceffc3",
+      "baseline_sha256": "8d22e5c289583cb613a481e23b49fd9b06801ab3a38976575c61e3d167ceffc3",
+      "change": "unchanged"
     }
   ]
 }
