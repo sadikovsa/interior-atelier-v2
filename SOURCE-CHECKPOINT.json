@@ -9,9 +9,13 @@
   "root_checkpoint_retained": true,
   "planned_repository": "sadikovsa/interior-atelier-v2",
   "planned_pages_url": "https://sadikovsa.github.io/interior-atelier-v2/",
-  "publication_status": "prepared_not_verified",
+  "publication_status": "published_verified",
   "html_body_original_sha256": "cec81b42bf7df2d9ba29b7138bd9d4189202c53245b03b8852a08c079dbdd49e",
   "metadata_change": "private origin plus variant path replaced with this standalone Pages base; UI unchanged",
   "source_inventory": "SOURCE-INVENTORY.json",
-  "public_build_inventory": "BUILD-INVENTORY.json"
+  "public_build_inventory": "BUILD-INVENTORY.json",
+  "live_pages_url": "https://sadikovsa.github.io/interior-atelier-v2/",
+  "public_runtime_source_commit": "dd3a934b0f2df6464abc1c6b16a1b4986f5649a7",
+  "pages_release_commit": "4df66d41305d2e5825183494d071ef75865a2ee1",
+  "publication_proof": "PUBLICATION.json"
 }

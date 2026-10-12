@@ -1,0 +1,26 @@
+{
+  "package": "interior-atelier-v2",
+  "status": "VERIFIED_LIVE",
+  "repository_url": "https://github.com/sadikovsa/interior-atelier-v2",
+  "repository_id": 1415153908,
+  "repository_private": false,
+  "live_pages_url": "https://sadikovsa.github.io/interior-atelier-v2/",
+  "runtime_source_commit": "dd3a934b0f2df6464abc1c6b16a1b4986f5649a7",
+  "pages_release_commit": "4df66d41305d2e5825183494d071ef75865a2ee1",
+  "source_and_pages_push_verified": true,
+  "build_status": "built",
+  "pages_source": {
+    "branch": "gh-pages",
+    "path": "/"
+  },
+  "live_http_verified_at": "2026-10-12T06:17:28.114420+00:00",
+  "http_files_verified": 54,
+  "all_http_files_exact_bytes": true,
+  "git_control_file": ".nojekyll not an HTTP asset",
+  "live_browser_qa": "QA_PASS_WITH_NOTES",
+  "normal_contexts": 2,
+  "fallback_contexts": 2,
+  "field_INP_FPS": "NOT_MEASURED",
+  "publication_connection": "Composio decoflowers-publishing / authenticated sadikovsa",
+  "latest_documentation_commit": "Read repository Git history; runtime and gh-pages unchanged after proof/readme updates"
+}
