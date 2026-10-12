@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "scope": "current edited source; historical original-copy inventory is in history/SOURCE-INVENTORY.before-cleanup.json",
+  "scope": "Current source files; updated documentation/publication proofs included. Runtime bytes remain verified by BUILD-INVENTORY.",
   "all_body_assets_identical": false,
   "files": [
     {
@@ -19,22 +19,22 @@
     },
     {
       "path": ".studio/design.json",
-      "bytes": 9153,
-      "sha256": "08cc25349bf2f5ebc7fb6990b9c67b98cbb506ac755d3a2a576f244978b7c8e7",
+      "bytes": 15329,
+      "sha256": "fe6496628f242ceea74c0a96ab0439c3e2d17bca4e4abdb2ae22b2af9a3a1660",
       "baseline_sha256": "08cc25349bf2f5ebc7fb6990b9c67b98cbb506ac755d3a2a576f244978b7c8e7",
       "change": "unchanged"
     },
     {
       "path": "DESIGN.md",
-      "bytes": 13246,
-      "sha256": "4459824ef91e896fec8e9ea699b107d895dbd7e6dff47db3a1b91cab3ca563f4",
+      "bytes": 19338,
+      "sha256": "cd2abf9f17bf6501acf956bea211b64fff0ab627dd725b859f7672860d829b22",
       "baseline_sha256": "4459824ef91e896fec8e9ea699b107d895dbd7e6dff47db3a1b91cab3ca563f4",
       "change": "unchanged"
     },
     {
       "path": "PUBLICATION.json",
-      "bytes": 1074,
-      "sha256": "21fef6cbdce03ed4314ebb47d8f87f61cbb8efdc05985dcb98405132ed17dc2d",
+      "bytes": 1126,
+      "sha256": "d3f01fb98099e5be8ccc1a9727c41329d4c48f0251f7faf573dd28bf33639024",
       "baseline_sha256": "21fef6cbdce03ed4314ebb47d8f87f61cbb8efdc05985dcb98405132ed17dc2d",
       "change": "unchanged"
     },

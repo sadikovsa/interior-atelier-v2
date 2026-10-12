@@ -8,11 +8,11 @@
   "root_checkpoint_retained": true,
   "planned_repository": "sadikovsa/interior-atelier-v2",
   "planned_pages_url": "https://sadikovsa.github.io/interior-atelier-v2/",
-  "publication_status": "edited_source_pending_root_publication_verification",
+  "publication_status": "VERIFIED_LIVE",
   "source_inventory": "SOURCE-INVENTORY.json",
   "public_build_inventory": "BUILD-INVENTORY.json",
   "live_pages_url": "https://sadikovsa.github.io/interior-atelier-v2/",
-  "publication_proof": "PUBLICATION.json is historical; root will add new deployment proof",
+  "publication_proof": "PUBLICATION.json; common ../qa-cleanup live HTTP/browser/service proofs",
   "historical_initial_transfer": "history/SOURCE-CHECKPOINT.before-cleanup.json",
   "historical_source_final_175_runtime_sha256": "7a619e74dbb829cb788c252ca954495ff9fcc97126aa7fac7cf89b230bf26a72",
   "historical_html_body_original_sha256": "cec81b42bf7df2d9ba29b7138bd9d4189202c53245b03b8852a08c079dbdd49e",
@@ -33,5 +33,7 @@
     "site.webmanifest"
   ],
   "current_public_runtime_inventory_sha256": "50944ab6d412b615a2aac647b6d872424ca0773bd0d2d5c50198d52c297de810",
-  "runtime_inventory_hash_method": "SHA256 UTF8 JSON of BUILD-INVENTORY.files; sort_keys=true, ensure_ascii=false, separators comma/colon"
+  "runtime_inventory_hash_method": "SHA256 UTF8 JSON of BUILD-INVENTORY.files; sort_keys=true, ensure_ascii=false, separators comma/colon",
+  "current_runtime_source_commit": "a9f68acac07efb8a864bd91df3d0060f6f697d09",
+  "current_pages_release_commit": "8c1af51b4bf2cf29ed189d7103fda44520a81a16"
 }
